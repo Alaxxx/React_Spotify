@@ -1,7 +1,7 @@
 //fetch ou Axios
 import axios from "axios";
 
-const URL = "http://localhost:3000";
+const URL = "https://treinamentosapisimples.vercel.app/api";
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const artistArray = responseArtists.data;
